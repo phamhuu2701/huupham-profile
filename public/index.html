@@ -1,413 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Web site created using create-react-app" />
-        <link rel="apple-touch-icon" href="logo192.png" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        <title>Huu Pham Profile</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="resources/css/bootstrap.css">
-        <link rel="stylesheet" href="resources/vendors/linericon/style.css">
-        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
-        <link rel="stylesheet" href="resources/vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="resources/vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="resources/vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="resources/vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="resources/vendors/popup/magnific-popup.css">
-        <link rel="stylesheet" href="resources/vendors/flaticon/flaticon.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="resources/css/style.css">
-        <link rel="stylesheet" href="resources/css/responsive.css">
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Huu Pham Profile</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="resources/css/bootstrap.css">
+    <link rel="stylesheet" href="resources/vendors/linericon/style.css">
+    <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="resources/vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="resources/vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="resources/vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="resources/vendors/popup/magnific-popup.css">
+    <link rel="stylesheet" href="resources/vendors/flaticon/flaticon.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
 
-        <style>
-            #root {
-                display: none;
-            }
-        </style>
-    </head>
-    <body>
+    <style>
+        #root {
+            display: none;
+        }
+    </style>
+</head>
 
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container box_1620">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <a class="navbar-brand logo_h" href="#">HUU PHAM</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                            <ul class="nav navbar-nav menu_nav ml-auto">
-                                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                                <li class="nav-item submenu dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="#">Facebook</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Twitter</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Github</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Linkedin</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!--================Header Menu Area =================-->
-    
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-            <div class="container box_1620">
-                <div class="banner_inner d-flex align-items-center">
-                    <div class="banner_content">
-                        <div class="media">
-                            <div class="d-flex">
-                                <img src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.0-9/p960x960/80391080_594966004595075_1892665334272360448_o.jpg?_nc_cat=101&_nc_ohc=KLg9raavHZ8AQlXIE7lByGfiWGnwUVv2rvhgcvR5cw4Xd_hUza28FLWvg&_nc_ht=scontent.fsgn4-1.fna&oh=dde6d44570ab22b17cb6ed1a4868d07f&oe=5E80EDA6" alt="">
-                            </div>
-                            <div class="media-body">
-                                <div class="personal_text">
-                                    <h6>Hello, I'm </h6>
-                                    <h3>Phạm Thế Hữu</h3>
-                                    <h5>Fresher Backend Developer</h5>
-                                    <div class="education">
-                                        <span class="education-title">KỸ SƯ CÔNG NGHỆ THÔNG TIN</span>
-                                        <span class="education-title">&amp; CỬ NHÂN SƯ PHẠM KỸ THUẬT CÔNG NGHỆ THÔNG TIN</span>
-                                        <span class="education-school">Đại học Sư phạm Kỹ thuật TP.HCM</span>
-                                        <span class="education-time">2015 - 2020</span>
-                                        <span class="education-gpa">GPA: 7.45 (Good)</span>
-                                    </div>
-                                    <ul class="list basic_info">
-                                        <li><a href="#"><i class="lnr lnr-calendar-full"></i> 2nd July, 1997</a></li>
-                                        <li><a href="tel:0344754889"><i class="lnr lnr-phone-handset"></i> 0344 754 889</a></li>
-                                        <li><a href="mailto:phamhuu2702@gmail.com"><i class="lnr lnr-envelope"></i> phamhuu2702@gmail.com</a></li>
-                                    </ul>
-                                    <ul class="list personal_social">
-                                        <li><a href="https://www.facebook.com/phamhuu2702"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-    
-        <!--================Welcome Area =================-->
-        <section class="welcome_area p_120">
-            <div class="container">
-                <div class="row welcome_inner">
-                    <div class="col-lg-6">
-                        <div class="welcome_text">
-                            <h4>Mục tiêu nghề nghiệp</h4>
-                            <div>
-                                Không ngừng nỗ lực, học tập và rèn luyện
-                                để nâng cao cả kỹ năng chuyên môn và kỹ
-                                năng mềm.
-                            </div>
-                            <br />
-                            <ul>
-                                <li>
-                                    Mục tiêu 6 tháng, hoàn thiện kiến thức
-                                    chuyên môn, có thể tự hoạt động độc lập.
-                                    Nâng TOEIC 700.
-                                </li>
-                                <li>
-                                    Mục tiêu 1 năm, trở thành một Full
-                                    Stack Developer (MERN STACK). Nâng TOEIC
-                                    800 và TOCFL 2.
-                                </li>
-                                <li>
-                                    Mục tiêu 2 năm, có bước thăng tiến
-                                    trong sự nghiệp. Nâng TOEIC 900 và TOCFL
-                                    4.
-                                </li>
-                            </ul>
-                            <br />
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="wel_item">
-                                        <i class="lnr lnr-history"></i>
-                                        <h4></h4>
-                                        <p>Kinh nghiệm</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="wel_item">
-                                        <i class="lnr lnr-book"></i>
-                                        <h4></h4>
-                                        <p>Dự án tham gia</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="wel_item">
-                                        <i class="lnr lnr-users"></i>
-                                        <h4></h4>
-                                        <p>Cộng đồng</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="tools_expert">
-                            <div class="skill_main">
-                                <div class="skill_item">
-                                    <h4>Javascript <span class="counter">85</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>NodeJs <span class="counter">70</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>ReactJs <span class="counter">70</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>NoSQL (MongoDB) <span class="counter">90</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>Express Framework <span class="counter">75</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>Java Core <span class="counter">80</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>Java Spring Boot <span class="counter">70</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>SQL (MySQL) <span class="counter">90</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Welcome Area =================-->
-    
-        <!--================My Tabs Area =================-->
-        <section class="mytabs_area p_120">
-            <div class="container">
-                <div class="tabs_inner">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Kinh nghiệm</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Học vấn</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <ul class="list">
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>08/2015 - nay</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Kỹ sư Công nghệ thông tin <br>&amp; Cử nhân Sư phạm Kỹ thuật Công nghệ Thông tin</h4>
-                                            <p>Đại học Sư phạm Kỹ thuật TP.HCM</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <ul class="list">
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>08/2015 - nay</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Kỹ sư Công nghệ thông tin <br>&amp; Cử nhân Sư phạm Kỹ thuật Công nghệ Thông tin</h4>
-                                            <p>Đại học Sư phạm Kỹ thuật TP.HCM</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End My Tabs Area =================-->
-    
-        <!--================Feature Area =================-->
-        <section class="feature_area p_120">
-            <div class="container">
-                <div class="main_title">
-                    <h2>LỜI CẢM ƠN</h2>
-                    <p>
-                        Thay cho một bản CV giấy, website
-                        này được lập ra để giúp chúng ta tương tác với
-                        nhau dễ dàng nhanh chóng hơn.
-                        <br />
-                        Sẽ rất vinh dự cho tôi nếu nhận được phản hồi
-                        đóng góp của bạn hoàn thiện hơn CV này.
-                        <br />
-                        Cảm ơn bạn đã ghé xem!
-                        <br />
-                    </p>
-                </div>
-                <div class="feature_inner row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature_item">
-                            <i class="lnr lnr-license"></i>
-                            <h4>Chứng chỉ</h4>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature_item">
-                            <i class="lnr lnr-graduation-hat"></i>
-                            <h4>Giải thưởng</h4>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature_item">
-                            <i class="lnr lnr-music-note"></i>
-                            <h4>Sở thích</h4>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Feature Area =================-->
-    
-        <!--================Footer Area =================-->
-        <footer class="footer_area p_120">
-            <div class="container">
-                <div class="row footer_inner">
-                    <div class="col-lg-3">
-                        <aside class="f_widget ab_widget">
-                            <div class="f_title">
-                                <h3>Giới thiệu</h3>
-                            </div>
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>
-                                    document.write(new Date().getFullYear());
-                                </script>
-                                by <strong>HUU PHAM</strong>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </aside>
-                    </div>
-                    <div class="col-lg-6">
-                        <aside class="f_widget news_widget">
-                            <div class="f_title">
-                                <h3>Liên hệ</h3>
-                            </div>
-                            <p></p>
-                            <div id="mc_embed_signup">
-                                <form target="_blank" action="" method="get" class="subscribe_form relative">
-                                    <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Enter email address" required="" type="email">
-                                        <button tyle="button" class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-                                    </div>
-                                    <div class="mt-10 info"></div>
-                                </form>
-                            </div>
-                        </aside>
-                    </div>
-                    <div class="col-lg-3">
-                        <aside class="f_widget social_widget">
-                            <div class="f_title">
-                                <h3>Kết nối với tôi</h3>
-                            </div>
-                            <p></p>
-                            <ul class="list">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linked"></i></a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
-        <div id="root"></div>
-    
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="resources/js/jquery-3.3.1.min.js"></script>
-        <script src="resources/js/popper.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
-        <script src="resources/js/stellar.js"></script>
-        <script src="resources/vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="resources/vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="resources/vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="resources/vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="resources/vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="resources/vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="resources/js/jquery.ajaxchimp.min.js"></script>
-        <script src="resources/vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="resources/vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="resources/js/mail-script.js"></script>
-        <script src="resources/js/theme.js"></script>
+<body>
 
-    </body>
-</html>
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container box_1620">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="#">HUU PHAM</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="#">Facebook</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Twitter</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Github</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Linkedin</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--================Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area">
+        <div class="container box_1620">
+            <div class="banner_inner d-flex align-items-center">
+                <div class="banner_content">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.0-9/p960x960/80391080_594966004595075_1892665334272360448_o.jpg?_nc_cat=101&_nc_ohc=KLg9raavHZ8AQlXIE7lByGfiWGnwUVv2rvhgcvR5cw4Xd_hUza28FLWvg&_nc_ht=scontent.fsgn4-1.fna&oh=dde6d44570ab22b17cb6ed1a4868d07f&oe=5E80EDA6" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="personal_text">
+                                <h6>Hello, I'm </h6>
+                                <h3>Phạm Thế Hữu</h3>
+                                <h5>Fresher Backend Developer</h5>
+                                <div class="education">
+                                    <span class="education-title">INFORMATION TECHNOLOGY ENGINEER</span>
+                                    <span class="education-title">&amp; BACHELOR OF TECHNICAL EDUCATION OF INFORMATION TECHNOLOGY</span>
+                                    <span class="education-school">HCMC University of Technology and Education</span>
+                                    <span class="education-time">2015 - 2020</span>
+                                    <span class="education-gpa">GPA: 7.45 (Good)</span>
+                                </div>
+                                <ul class="list basic_info">
+                                    <li><a href="#"><i class="lnr lnr-calendar-full"></i> 2nd July, 1997</a></li>
+                                    <li><a href="tel:0344754889"><i class="lnr lnr-phone-handset"></i> 0344 754 889</a></li>
+                                    <li><a href="mailto:phamhuu2702@gmail.com"><i class="lnr lnr-envelope"></i> phamhuu2702@gmail.com</a></li>
+                                </ul>
+                                <ul class="list personal_social">
+                                    <li><a href="https://www.facebook.com/phamhuu2702"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================Welcome Area =================-->
+    <section class="welcome_area p_120">
+        <div class="container">
+            <div class="row welcome_inner">
+                <div class="col-lg-6">
+                    <div class="welcome_text">
+                        <h4>HIGHLIGHT</h4>
+                        <ul>
+                            <li>
+                                Good knowledge in software industry:
+                            </li>
+                            <li class="li-custom">
+                                <ul>
+                                    <li>
+                                        Worked with HTML5, CSS3, BOOSTRAP4, JAVASCRIPT, AJAX, JQUERY
+                                    </li>
+                                    <li>
+                                        Worked with JAVA CORE, JAVA OOP, JAVA SPRING MVC, JAVA SPRING BOOT
+                                    </li>
+                                    <li>
+                                        Worked with NODEJS, REACTJS, EXPRESS FRAMEWORK, RESTFUL API
+                                    </li>
+                                    <li>
+                                        Worked with MS SQL, MY SQL, MONGODB
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Good at in OOP, Design Patterns, Algorithms data structures
+                            </li>
+                            <li>
+                                Strong at troubleshooting issues and providing solutions
+                            </li>
+                            <li>
+                                Quick at learning new technology 
+                            </li>
+                        </ul>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="wel_item">
+                                    <i class="lnr lnr-history"></i>
+                                    <h4></h4>
+                                    <p>Skills</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="wel_item">
+                                    <i class="lnr lnr-book"></i>
+                                    <h4></h4>
+                                    <p>Projects</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="wel_item">
+                                    <i class="lnr lnr-users"></i>
+                                    <h4></h4>
+                                    <p>Communities</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tools_expert">
+                        <div class="skill_main">
+                            <div class="skill_item">
+                                <h4>Javascript <span class="counter">85</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>NodeJs <span class="counter">70</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>ReactJs <span class="counter">70</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>NoSQL (MongoDB) <span class="counter">90</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Express Framework <span class="counter">75</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Java Core <span class="counter">80</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Java Spring Boot <span class="counter">70</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>SQL (MySQL) <span class="counter">90</span>%</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Welcome Area =================-->
+
+    <!--================Welcome Area =================-->
+    <section class="welcome_area p_120">
+        <div class="container">
+            <div class="row welcome_inner">
+                <div class="col-lg-6">
+                    <div class="welcome_text">
+                        <h4>Career goals</h4>
+                        <div>
+                            Constantly endeavor, study and train to improve both professional skills and soft skills.
+                        </div>
+                        <br />
+                        <ul>
+                            <li>
+                                The goal of 6 months, perfecting professional knowledge and being able to operate independently. Achieve TOEIC 700.
+                            </li>
+                            <li>
+                                One year goal, to become a Full Stack Developer (MERN STACK). Achieve TOEIC 800 and TOCFL 2.
+                            </li>
+                            <li>
+                                The goal of 2 years, has advancements in career. Achieve TOEIC 900 and TOCFL 4.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tools_expert">
+                        <div class="skill_main">
+                            <div class="skill_item">
+                                <h4>Communication skills</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Positive attitude</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Team working</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Creative at work</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Observation skills</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Adaptability</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Work well under pressure</h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Welcome Area =================-->
+
+    <!--================My Tabs Area =================-->
+    <section class="mytabs_area p_120">
+        <div class="container">
+            <div class="tabs_inner">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <ul class="list">
+                            <li>
+                                <span></span>
+                                <div class="media">
+                                    <div class="d-flex">
+                                        <p>08/2015 - present</p>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4>INFORMATION TECHNOLOGY ENGINEER<br>&amp; BACHELOR OF TECHNICAL EDUCATION OF INFORMATION TECHNOLOGY</h4>
+                                        <p>HCMC University of Technology and Education</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <ul class="list">
+                            <li>
+                                <span></span>
+                                <div class="media">
+                                    <div class="d-flex">
+                                        <p>08/2015 - present</p>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4>INFORMATION TECHNOLOGY ENGINEER<br>&amp; BACHELOR OF TECHNICAL EDUCATION OF INFORMATION TECHNOLOGY</h4>
+                                        <p>HCMC University of Technology and Education</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End My Tabs Area =================-->
+
+    <!--================Feature Area =================-->
+    <section class="feature_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>THANK YOU !</h2>
+                <p>
+                    Instead of a paper CV, this website was created to help us interact with each other more easily.
+                    <br />
+                    It would be a great honor for me if received your positive feedback to perfect this CV.
+                    <br />
+                    Thank you for visiting!
+                    <br />
+                </p>
+            </div>
+            <div class="feature_inner row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <i class="lnr lnr-license"></i>
+                        <h4>CERTIFICATEs</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <i class="lnr lnr-graduation-hat"></i>
+                        <h4>PRIZES</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <i class="lnr lnr-music-note"></i>
+                        <h4>HOBBIES</h4>
+                        <p>Travel</p>
+                        <p>Sport</p>
+                        <p>Reading books</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Feature Area =================-->
+
+    <!--================Footer Area =================-->
+    <footer class="footer_area p_120">
+        <div class="container">
+            <div class="row footer_inner">
+                <div class="col-lg-3">
+                    <aside class="f_widget ab_widget">
+                        <div class="f_title">
+                            <h3>About Me</h3>
+                        </div>
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            by <strong>HUU PHAM</strong>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </aside>
+                </div>
+                <div class="col-lg-6">
+                    <aside class="f_widget news_widget">
+                        <div class="f_title">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <p></p>
+                        <div id="mc_embed_signup">
+                            <form action="#" method="get" class="subscribe_form relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Enter email address" required="required" type="email">
+                                    <button tyle="button" class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                                </div>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-3">
+                    <aside class="f_widget social_widget">
+                        <div class="f_title">
+                            <h3>Follow Me</h3>
+                        </div>
+                        <p></p>
+                        <ul class="list">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linked"></i></a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+    <div id="root"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="resources/js/jquery-3.3.1.min.js"></script>
+    <script src="resources/js/popper.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/stellar.js"></script>
+    <script src="resources/vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="resources/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="resources/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="resources/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="resources/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="resources/vendors/popup/jquery.magnific-popup.min.js"></script>
+    <script src="resources/js/jquery.ajaxchimp.min.js"></script>
+    <script src="resources/vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="resources/vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="resources/js/mail-script.js"></script>
+    <script src="resources/js/theme.js"></script>
+
+</body></html>

@@ -71,7 +71,7 @@ body {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: #777777;
+    color: #666666;
 }
 
 h1,
@@ -153,7 +153,7 @@ button:focus {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     line-height: 26px;
-    color: #777777;
+    color: #666666;
     margin-bottom: 0px;
 }
 
@@ -332,7 +332,7 @@ button:focus {
 
 .top_menu .header_social li a {
     font-size: 14px;
-    color: #777777;
+    color: #666666;
     display: inline-block;
     line-height: 42px;
     transition: all 300ms linear 0s;
@@ -353,7 +353,7 @@ button:focus {
     margin-right: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: #777777;
+    color: #666666;
     transition: all 300ms linear 0s;
 }
 
@@ -375,14 +375,14 @@ button:focus {
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
-    color: #777777;
+    color: #666666;
     background: #f9f9ff;
     margin-right: 5px;
     margin-top: 8px;
 }
 
 .top_menu .lan_pack .current {
-    color: #777777;
+    color: #666666;
 }
 
 .top_menu .lan_pack:after {
@@ -592,7 +592,7 @@ button:focus {
     font-size: 13px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: #777777;
+    color: #666666;
     margin-top: 20px;
     display: block;
     margin-bottom: 15px;
@@ -642,7 +642,7 @@ button:focus {
 }
 
 .single-recent-blog-post .details .sec_h4:hover {
-    color: #777777;
+    color: #666666;
 }
 
 .single-recent-blog-post .date {
@@ -753,7 +753,7 @@ button:focus {
 }
 
 .blog_info .post_tag a:hover {
-    color: #777777;
+    color: #666666;
 }
 
 .blog_info .post_tag a.active {
@@ -762,7 +762,7 @@ button:focus {
 
 .blog_info .blog_meta li a {
     font: 300 14px/20px "Roboto", sans-serif;
-    color: #777777;
+    color: #666666;
     vertical-align: middle;
     padding-bottom: 12px;
     display: inline-block;
@@ -1317,7 +1317,7 @@ button:focus {
 }
 
 .comments-area .comment {
-    color: #777777;
+    color: #666666;
     margin-bottom: 0px;
 }
 
@@ -1382,7 +1382,7 @@ button:focus {
     border-radius: 0px;
     width: 100%;
     font-size: 14px;
-    color: #777777;
+    color: #666666;
     border: 1px solid transparent;
 }
 
@@ -2044,7 +2044,7 @@ h6 {
 .typography h4,
 .typography h5,
 .typography h6 {
-    color: #777777;
+    color: #666666;
 }
 
 .button-area .border-top-generic {
@@ -2461,7 +2461,7 @@ h6 {
 
 .ordered-list li span {
     font-weight: 300;
-    color: #777777;
+    color: #666666;
 }
 
 .ordered-list-alpha li {
@@ -2474,7 +2474,7 @@ h6 {
 
 .ordered-list-alpha li span {
     font-weight: 300;
-    color: #777777;
+    color: #666666;
 }
 
 .ordered-list-roman li {
@@ -2487,7 +2487,7 @@ h6 {
 
 .ordered-list-roman li span {
     font-weight: 300;
-    color: #777777;
+    color: #666666;
 }
 
 .single-input {
@@ -3300,9 +3300,17 @@ h6 {
     max-width: 495px;
     font-family: "Roboto", sans-serif;
     margin-bottom: 40px;
-    color: #777777;
+    color: #666666;
     line-height: 1.8em;
     text-align: justify;
+}
+
+.welcome_text li {
+    margin-bottom: 10px;
+}
+
+.welcome_text .li-custom {
+    list-style-type: none;
 }
 
 .wel_item {
@@ -3483,7 +3491,7 @@ h6 {
 
 .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
     color: #fff;
-    font-size: 21px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 20px;
     line-height: 1.5em;
@@ -3561,7 +3569,7 @@ h6 {
 
 .feature_item p {
     margin-bottom: 0px;
-    color: #777777;
+    color: #666666;
 }
 
 .feature_item .main_btn {
@@ -3605,7 +3613,7 @@ h6 {
     letter-spacing: 2.1px;
     font-weight: normal;
     margin-bottom: 12px;
-    color: #777777;
+    color: #666666;
 }
 
 .personal_text h5 {
@@ -3613,7 +3621,7 @@ h6 {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-    color: #777777;
+    color: #666666;
     margin-bottom: 30px;
 }
 
@@ -3630,12 +3638,12 @@ h6 {
     font-size: 48px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    color: #666666;
+    color: #555555;
 }
 
 .personal_text .education {
     margin-bottom: 30px;
-    color: #777777;
+    color: #666666;
 }
 
 .personal_text .education-title {
@@ -3648,19 +3656,20 @@ h6 {
 .personal_text .education-school {
     display: block;
     font-weight: bold;
-    color: #777777;
+    color: #7777777;
+    margin-top: 10px;
 }
 
 .personal_text .education-time,
 .personal_text .education-gpa {
     display: block;
-    color: #777777;
+    color: #666666;
 }
 
 .personal_text p {
     font-family: "Roboto", sans-serif;
     max-width: 540px;
-    color: #777777;
+    color: #666666;
     margin-bottom: 30px;
 }
 
@@ -3672,7 +3681,7 @@ h6 {
     position: relative;
     padding-left: 40px;
     font-size: 16px;
-    color: #777777;
+    color: #666666;
 }
 
 .personal_text .basic_info li a i {
@@ -3961,7 +3970,7 @@ h6 {
     border: 1px solid #cccccc;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
-    color: #777777;
+    color: #666666;
     outline: none;
     box-shadow: none;
 }
