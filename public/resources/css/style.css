@@ -3346,6 +3346,10 @@ h6 {
     margin-bottom: 20px;
 }
 
+.wel_item b {    
+    color: #666666;
+}
+
 .tools_expert {
     padding: 20px 0px 0px 0px;
 }
@@ -3621,7 +3625,7 @@ h6 {
 }
 
 .personal_text h5 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
@@ -3660,13 +3664,19 @@ h6 {
 .personal_text .education-school {
     display: block;
     font-weight: bold;
-    color: #7777777;
-    margin-top: 10px;
+    color: #777777;
 }
 
-.personal_text .education-time,
 .personal_text .education-gpa {
-    display: block;
+    color: #777777;
+}
+
+.personal_text .education-time {
+    color: #777777;
+    float: right;
+}
+
+.personal_text .education-gpa b {
     color: #666666;
 }
 
